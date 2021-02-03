@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
+    siteTitle: `Sufarmed Docs`,
+    defaultTitle: `Sufarmed Docs`,
+    siteTitleShort: `Sufarmed Docs`,
+    siteDescription: `Ou documentation websites easily and quickly`,
     siteUrl: `https://rocketdocs.netlify.com`,
     siteAuthor: `@rocketseat`,
     siteImage: `/banner.png`,
@@ -17,15 +17,14 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        githubUrl: `https://github.com/BrauCamaH/sufarmed-docs`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Sufarmed Documentation`,
+        short_name: `SFM Gatsby Themes`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
